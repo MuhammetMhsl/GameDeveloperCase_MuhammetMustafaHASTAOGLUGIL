@@ -132,7 +132,7 @@ public class Block3D : MonoBehaviour
         if (!TargetGridManager.I.TryGetNextAssignedTarget(slotIndex, blockId, out tRow, out tCol, out wpos, out tUid))
             return false;
 
-        transform.DOPunchScale(Vector3.one * 0.2f, 0.15f, 5, 0.8f);//Atei ettiğinde efekt
+        transform.DOPunchScale(Vector3.one * 0.2f, .12f, 5, 0.8f);//Atei ettiğinde efekt
         PlayFireRecoil();//Silah efekti
         
         ammo--;

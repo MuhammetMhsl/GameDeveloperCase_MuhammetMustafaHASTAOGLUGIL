@@ -471,7 +471,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 7949219808621128661, guid: 5a5495d390fa441a98f511f2edf35392, type: 3}
   muzzle: {fileID: 6556343050748611786}
   ammo: 10
-  fireCooldown: 0.2
+  fireCooldown: 0.12
   bulletSpeed: 20
   ammoText: {fileID: 0}
   runtimeExitTransformFirst: {fileID: 0}
