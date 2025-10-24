@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d89f1dd669704c8a85fb2da709761eb, type: 3}
+  m_Name: Level_01
+  m_EditorClassIdentifier: 
+  columns: 3
+  rows: 4
+  idRows:
+  - Y B G
+  - G G Y
+  - Y B Y
+  - G B .
+  ammoRows:
+  - 20-20-20
+  - 20-10-20
+  - 20-10-20
+  - 20-20-0
+  blockDefs:
+  - {fileID: 11400000, guid: 1dacbf376e86c4c8e815a3e32e09991d, type: 2}
+  - {fileID: 11400000, guid: bebf84144d38849c689e15648ed1664c, type: 2}
+  - {fileID: 11400000, guid: 181d4cdf87aad415886c40e2e63f0a71, type: 2}
+  - {fileID: 11400000, guid: 0a0607df8248f407fb1223f04a9d55b4, type: 2}
+  idSeparator: 32
+  ammoSeparator: 45
+  targetColumns: 10
+  targetRows: 20
+  targetIdRows:
+  - Y Y Y Y Y Y Y Y Y Y
+  - B B B Y Y Y B G B B
+  - Y Y Y Y B B G G G G
+  - G G Y Y B B Y Y G G
+  - Y Y B B Y Y Y B B G
+  - G G G G B B B B Y Y
+  - Y Y G G G Y Y Y Y G
+  - G G G Y Y G G Y Y Y
+  - G G G G B B G G G G
+  - B B G G G G Y Y Y Y
+  - Y Y Y B B B G G G G
+  - Y Y Y G G G G Y Y Y
+  - G G B B Y Y Y B B B
+  - G G G G B B B Y Y Y
+  - Y Y Y Y G G G G Y Y
+  - Y Y G G G G B B B B
+  - B B B Y Y Y Y G G B
+  - G G G G B B B G G G
+  - B B Y Y Y Y B B B B
+  - Y Y Y Y G G G G Y Y
+  autoGenerate: 0
+  difficulty: 0
+  useSeed: 0
+  seed: 12345
+  useMultiplesOfTen: 1
+  fixedTargetWidth: 1
